@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://omidranjbaran.github.io/senrest",
   "scripts": {
-    "deploy": "gh-pages -d dist -b main",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
