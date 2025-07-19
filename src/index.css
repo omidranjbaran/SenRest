@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'IranianSans';
+  src: url('/fonts/Iranian Sans.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'IranianSans', sans-serif;
+}
