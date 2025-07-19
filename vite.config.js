@@ -11,6 +11,7 @@ export default defineConfig({
     tailwindcss(),
   ],
    build: {
+     outDir: 'docs',
     // اگر می‌خواهی آستانه‌ی هشدار را هم تغییر دهی:
     chunkSizeWarningLimit:1000, // واحد کیلوبایت (مثلاً 700KB)
     rollupOptions: {
