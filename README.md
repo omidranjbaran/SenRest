@@ -1,12 +1,23 @@
-# React + Vite
+#  سامانه مدیریت سفارش ساخت ارتز و پروتز
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 شرح پروژه
 
-## Expanding the ESLint configuration
+سامانه مذکور امکان ثبت، مشاهده و پیگیری سفارش‌های ساخت ارتز و پروتز را فراهم می‌کند. تمرکز اصلی این سیستم بر مدیریت کارآمد اطلاعات بیماران، ثبت دقیق جزئیات سفارش‌ها، و نمایش مراحل ساخت تا تحویل نهایی به‌صورت بصری است.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ تکنولوژی‌های استفاده‌شده
+
+- **React.js** – توسعه رابط کاربری پویا و واکنش‌گرا
+- **TailwindCSS** – طراحی ظاهری سریع و یکپارچه با استفاده از کلاس‌های utility-first
+- **JavaScript (ES6+)** – پیاده‌سازی منطق داخلی کامپوننت‌ها
+- **Vite / CRA** – ابزار توسعه و بیلد پروژه (بسته به ساختار)
+
+> نکته: در این پروژه از API خارجی یا سیستم بک‌اند استفاده نشده است. داده‌ها به‌صورت محلی (local state) یا استاتیک مدیریت می‌شوند.
+
+---
+
+
